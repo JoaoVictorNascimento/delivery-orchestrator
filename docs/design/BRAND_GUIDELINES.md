@@ -1,6 +1,6 @@
 # Brand Guidelines
 
-**Status:** Concept and brand board accepted. Final vector asset production and exact color verification pending.
+**Status:** Concept and raster brand board accepted. Vector production candidate v1.0 delivered for final visual sign-off. Exact UI preset token verification pending.
 
 ## Identity
 
@@ -8,7 +8,7 @@ Product name: **Delivery Orchestrator**. Descriptor: Engineering Control Center.
 
 ## Palette
 
-| Brand color | Working HEX | Usage |
+| Brand color | Brand HEX | Usage |
 |---|---|---|
 | Amber | `#F79600` | Signature accent, mark and emphasis |
 | Deep Amber | `#B24700` | Secondary brand accent |
@@ -16,7 +16,7 @@ Product name: **Delivery Orchestrator**. Descriptor: Engineering Control Center.
 | Warm Cream | `#F7F3EE` | Light brand backgrounds |
 | Espresso | `#2B1F1A` | Dark brand backgrounds |
 
-These are working brand colors from the design discussion, not verified exported shadcn semantic tokens. Use the actual `b1Ha08Wri` preset for functional UI colors and contrast. Do not use raw brand amber for every primary text or status.
+These are the brand colors from the design discussion, not verified exported shadcn semantic tokens. Use the actual `b1Ha08Wri` preset for functional UI colors and contrast. Do not use raw brand amber for every primary text or status.
 
 ## Typography and iconography
 
@@ -24,7 +24,7 @@ Raleway is the approved heading/body/wordmark direction; Lucide is the UI icon s
 
 ## Logo variants and usage
 
-Deliver master vector, light/dark lockups, horizontal/stacked, symbol-only and monochrome black/white, with transparent PNG exports. Preserve aspect ratio; no stretching, recoloring outside approved variants, additional shadows, unrelated gradients or busy backgrounds. Proposed clear space: at least one quarter of symbol height around lockup; validate after vector reconstruction. Proposed minimum symbol size 16px (test at 16/32/48); omit tagline when illegible. Treat these measurements as production candidates, not measured specifications of the raster board.
+Deliver master vector, light/dark lockups, horizontal/stacked, symbol-only and monochrome black/white, with transparent PNG exports. Preserve aspect ratio; no stretching, recoloring outside approved variants, additional shadows, unrelated gradients or busy backgrounds. Clear space: at least one quarter of symbol height around the mark or lockup. Minimum recommended symbol size: 24 px; use the dedicated favicon at 16 px. For horizontal lockups, use the no-tagline variant below 360 CSS px width; below 180 px prefer the symbol. These are proposed production rules, subject to visual sign-off and accessibility testing.
 
 ## Brand kit acceptance
 
@@ -41,3 +41,15 @@ App icon target: 1024×1024. Verify transparency, shape fidelity, small-size rea
 ## Brand voice
 
 Precise, calm, concise and evidence-oriented. Explain current state, next action and uncertainty; no inflated claims of autonomy or invented outcomes. English documentation; bilingual product UI.
+
+## Production asset notes
+
+- `logos/logo-horizontal-light.svg` is the primary transparent lockup for light surfaces; use `logo-horizontal-dark.svg` for dark surfaces. Stacked, no-tagline, pure black and pure white variants are provided. The words are outlined paths traced from the accepted raster wordmark, not live Raleway text. This preserves its appearance without distributing or requiring fonts. The symbol is manually reconstructed with SVG curves and rounded strokes.
+- `#FFB86C` is the ribbon highlight; `#FFA52F` is a logo-only gradient endpoint. Neither is a new semantic UI token. The light tagline is a decorative brand element, not a substitute for accessible body text.
+- `icons/symbol-color.svg` is the transparent standalone mark. Use app-icon variants for app surfaces, and favicon assets for browser tabs. The smallest icons intentionally use a dark tile for consistent contrast.
+- The PNG lockups are exported at their SVG viewBox dimensions. For larger raster output render the SVG at the required dimensions.
+- Social assets include GitHub preview/avatar, README banner, LinkedIn, Open Graph and wallpaper; SVG and PNG are provided.
+- Do not stretch, rotate, add effects, change ribbon order, place on low-contrast backgrounds, or reuse the brand colors as status colors. Use the monochrome variants for single-color applications.
+- UI type remains Raleway; JetBrains Mono remains proposed. No font files are distributed. Brand-board headings use system fallback fonts.
+- The original approved raster references are included for comparison, not as production vector assets.
+- SVGs were parsed and rendered to PNG; icon and social dimensions were checked. Final product integration, exact preset export, and user approval remain pending.
