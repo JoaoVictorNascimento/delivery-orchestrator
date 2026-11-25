@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "colors": {
+    "amber": "#F79600",
+    "deep-amber": "#B24700",
+    "taupe": "#9F8E84",
+    "warm-cream": "#F7F3EE",
+    "espresso": "#2B1F1A",
+    "highlight": "#FFB86C"
+  },
+  "typography": {
+    "primary": "Raleway",
+    "technical": "JetBrains Mono (proposed)"
+  },
+  "uiPreset": "b1Ha08Wri"
+}
