@@ -1,6 +1,6 @@
 # Product Vision
 
-**Version:** 0.2 | **Date:** 2026-11-24 | **Status:** Proposed public baseline
+**Version:** 0.3 | **Date:** 2026-11-25 | **Status:** Approved product direction; implementation pending
 
 ## Vision and mission
 
@@ -28,6 +28,10 @@ Coding agents automate individual tasks while developers still coordinate review
 10. No automatic merge.
 11. No mandatory additional paid services.
 12. Recovery of interrupted deliveries.
+13. Orchestrate, don't duplicate: no embedded IDE or redundant GitLab workspace.
+14. English and Brazilian Portuguese interface; English public documentation.
+15. Honest, capability-aware telemetry and quality-preserving AI efficiency measurement.
+16. One decision gateway, auditable approvals and project-isolated knowledge.
 
 ## Public project principles
 
@@ -48,3 +52,7 @@ Validate first with disposable repositories and a synthetic GitLab environment, 
 ## Risks and assumptions
 
 Agent continuation and invocation depend on actual provider capabilities; manual resume is acceptable. Review completion requires reliable evidence or explicit authorized human confirmation, never silence. Existing AI and CI quotas may apply. Learning must be auditable, approved and reversible. Local-first does not imply that remote AI providers never receive code; their data handling must be documented and authorized.
+
+## AI efficiency extension
+
+The product also enables developers to observe provider-reported token usage, identify waste and evaluate optimization techniques against controlled baselines. Collection is an early foundation; analytics and experimental automation are phased separately. No economy metric may override quality or mandatory safeguards.
